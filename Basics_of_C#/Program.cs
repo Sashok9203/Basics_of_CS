@@ -8,9 +8,9 @@ namespace Basics_of_C_
 
         static void Main(string[] args)
         {
-            //circleArea();
-            //guessNumber();
-            //drawRectangle();
+            circleArea();
+            guessNumber();
+            drawRectangle();
             harvestingHay();
         }
 
@@ -77,6 +77,15 @@ namespace Basics_of_C_
             Console.ReadKey();
         }
 
+        static void Triangles()
+        {
+            Console.Clear();
+            int size = getValue(" Enter triangle size : ");
+            
+
+
+            Console.ReadKey();
+        }
 
         static int  getValue(string message)
         {
